@@ -10,32 +10,29 @@ $(document).ready(function(){
   });
 
   $("button#dog").click(function(){
-    $("ul#cat").prepend("<li>RAWR~!</li>");
-    $("ul#dog").prepend("<li>AWOOOOOO~!</li>");
+
+    $("ul#p2").prepend("<li>AWOOOOOO~!</li>");
   });
 
   $("button#cat").click(function(){
-    $("ul#cat").prepend("<li>RAWR~!</li>");
-    $("ul#dog").prepend("<li>AWOOOOOO~!</li>");
+    $("ul#p2").prepend("<li>AWOOOOOO~!</li>");
   });
 
   $("button#fox").click(function(){
-    $("ul#cat").prepend("<li>RAWR~!</li>");
-    $("ul#dog").prepend("<li>AWOOOOOO~!</li>");
+    $("ul#p2").prepend("<li>AWOOOOOO~!</li>");
   });
 
   $("button#guppy").click(function(){
-    $("ul#cat").prepend("<li>RAWR~!</li>");
-    $("ul#dog").prepend("<li>AWOOOOOO~!</li>");
+    $("ul#p2").prepend("<li>AWOOOOOO~!</li>");
   });
 
   $("button#trex").click(function(){
-    $("ul#cat").prepend("<li>RAWR~!</li>");
-    $("ul#dog").prepend("<li>AWOOOOOO~!</li>");
+    $("ul#p2").prepend("<li>AWOOOOOO~!</li>");
   });
 
   $("button#walrus").click(function(){
-    $("ul#cat").prepend("<li>RAWR~!</li>");
-    $("ul#dog").prepend("<li>AWOOOOOO~!</li>");
+    $("#animal2").hide();
+    $(".row > .col-md-6:last-child").append(
+      "<h2>Walrus</h2>");
   });
 });
